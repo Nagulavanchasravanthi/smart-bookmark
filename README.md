@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Smart Bookmark Manager
 
-## Getting Started
+A simple web application that allows users to save, view, and manage bookmarks securely with Google authentication.
 
-First, run the development server:
+---
 
-```bash
+## Live Demo
+https://smart-bookmark-ucod.vercel.app/
+
+---
+
+## GitHub Repository
+https://github.com/Nagulavanchasravanthi/smart-bookmark
+
+---
+
+## Features
+
+- Google Authentication using Supabase
+- Add bookmarks with Title and URL
+- View saved bookmarks
+- Each user sees only their own bookmarks
+- Responsive UI
+- Deployed on Vercel
+
+---
+
+## Tech Stack
+
+- React + Vite  
+- Supabase (Authentication & Database)  
+- Vercel (Hosting)
+
+---
+
+## Environment Variables
+
+Create a `.env` file:
+
+VITE_SUPABASE_URL= https://supabase.com/dashboard/project/iukkaxpvywwlwbuvcjgm
+VITE_SUPABASE_ANON_KEY= eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Iml1a2theHB2eXd3bHdidXZjamdtIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzExMDIzNjMsImV4cCI6MjA4NjY3ODM2M30.Noj9Z6dLIBSJP6Nznu-Jht3Us5rkZHCVVGwUj4OjSP0
+
+## How to Run Locally
+
+git clone https://github.com/Nagulavanchasravanthi/smart-bookmark
+cd smart-bookmark
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Author
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Sravanthi Nagulavanchasravancha
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Live URL:
+https://smart-bookmark-ucod.vercel.app/
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+GitHub Repo:
+https://github.com/Nagulavanchasravanthi/smart-bookmark
